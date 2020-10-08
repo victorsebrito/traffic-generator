@@ -66,7 +66,7 @@ const timestampInSeconds = function (from: string = "1900-01-01T00:00:00Z"): num
 }
 
 const header = {
-	// peerId: 12345, // Peer Id is the local port of a connection to a peer. If not set, Traffic Gen will automatically select a peer that supports the specified application.
+  // peerId: 12345, // Peer Id is the local port of a connection to a peer. If not set, Traffic Gen will automatically select a peer that supports the specified application.
   application: 'Diameter Credit Control Application',
   command: 'Credit-Control',
   messageId: 1, // This is used to identify message answers.

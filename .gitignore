@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# JS generated files
+lib/
+
+# Logs folder
+logs/
+
+# Dist folder
+dist/
